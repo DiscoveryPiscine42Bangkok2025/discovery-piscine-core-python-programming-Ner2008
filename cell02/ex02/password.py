@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+secret_password = "Python is awesome"
+
+try:
+    user_input = input()
+
+    if user_input == secret_password:
+        print("ACCESS GRANTED")
+    else:
+        print("ACCESS DENIED")
+except EOFError:
+    pass
